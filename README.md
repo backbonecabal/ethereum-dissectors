@@ -39,6 +39,9 @@ Here are the features currently supported by the Ethereum Discovery dissector (w
 **We're working to enable building the plugin separately from Wireshark. In the meantime, you will need to clone the Wireshark repo.**
 
 1. Go to the [Wireshark repo](https://github.com/wireshark/wireshark) and clone it.
+
+> Download the 3.2.1 Tarball here: [https://gitlab.com/wireshark/wireshark/-/archive/v3.2.1/wireshark-v3.2.1.tar.gz](https://gitlab.com/wireshark/wireshark/-/archive/v3.2.1/wireshark-v3.2.1.tar.gz)
+
 2. Set up your build environment. The steps vary depending on your OS.
   * For Windows, follow the [instructions here](https://www.wireshark.org/docs/wsdg_html_chunked/ChapterSetup.html).
   * For Unix and macOS systems, most tools are already installed, but you need to ensure you have `cmake` and `ninja`. On macOS, you can run `brew install cmake ninja` if you use Homebrew.
